@@ -444,13 +444,13 @@ NexT.utils.loadComments('.gitalk-container', () => {
     var gitalk = new Gitalk({
       clientID    : '26c541e236eb3489efac',
       clientSecret: 'e08584d49415ec01391005e8ccabf69b5ae199b9',
-      repo        : 'isjjhang.github.io',
+      repo        : 'blog-comments',
       owner       : 'isjjhang',
       admin       : ['isjjhang'],
       id          : '98ff6533c4bafbd4f0ea4962669ccc97',
-      proxy       : 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token',
+      proxy       : 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
         language: '',
-      distractionFreeMode: false
+      distractionFreeMode: true
     });
     gitalk.render(document.querySelector('.gitalk-container'));
   }, window.Gitalk);
