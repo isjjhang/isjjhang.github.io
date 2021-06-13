@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/02/17/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>IELTS Test</title>
+    <url>/2021/06/13/IELTS%20Test/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hexo Commands</title>
+    <url>/2021/02/17/Hexo-Commands/</url>
+    <content><![CDATA[<p>There are around 20 commands in Hexo, while following are those commonly used.</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s (-p 4000)</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo server&#x27;</span></span><br><span class="line">- Run hexo on the <span class="built_in">local</span> server</span><br><span class="line">- The defult port number is 4000</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n xxx</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo new&#x27;</span></span><br><span class="line">- Create a new article with the given name xxx</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n page xxx</span><br><span class="line"></span><br><span class="line">- Generate a new page xxx <span class="keyword">in</span> the directory blog/<span class="built_in">source</span>/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line"></span><br><span class="line">- Clean static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo generate&#x27;</span></span><br><span class="line">- Generate static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo deploy&#x27;</span></span><br><span class="line">- Deploy to the specified repository</span><br></pre></td></tr></table></figure>
+<h6 id="Commands-Combination"><a href="#Commands-Combination" class="headerlink" title="Commands Combination"></a>Commands Combination</h6><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo su <span class="comment"># switch to the root user</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo g -d</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
   <entry>
-    <title>test first</title>
-    <url>/2021/02/17/test-first/</url>
+    <title>Adversarial-Attack</title>
+    <url>/2021/06/13/Adversarial-Attack/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Math</title>
+    <url>/2021/06/13/Math/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
