@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo Commands</title>
-    <url>/2021/02/17/Hexo-Commands/</url>
-    <content><![CDATA[<h4 id="Commonly-used-Commands"><a href="#Commonly-used-Commands" class="headerlink" title="Commonly used Commands"></a>Commonly used Commands</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s (-p 4000)</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo server&#x27;</span></span><br><span class="line">- Run hexo on the <span class="built_in">local</span> server</span><br><span class="line">- The defult port number is 4000</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n xxx</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo new&#x27;</span></span><br><span class="line">- Create a new article with the given name xxx</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n page xxx</span><br><span class="line"></span><br><span class="line">- Generate a new page xxx <span class="keyword">in</span> the directory blog/<span class="built_in">source</span>/</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line"></span><br><span class="line">- Clean static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo generate&#x27;</span></span><br><span class="line">- Generate static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo deploy&#x27;</span></span><br><span class="line">- Deploy to the specified repository</span><br><span class="line">- Remember to create a new file <span class="string">&#x27;CNAME&#x27;</span> containing the custom domain</span><br></pre></td></tr></table></figure>
-<h4 id="Commands-Combination"><a href="#Commands-Combination" class="headerlink" title="Commands Combination"></a>Commands Combination</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo su <span class="comment"># switch to the root user</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo g -d</span><br><span class="line">- Create <span class="string">&#x27;CNAME&#x27;</span></span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
     <title>New Year</title>
     <url>/2022/02/03/New-Year/</url>
     <content><![CDATA[<p><img src="/.cyou//1.jpg" alt="111"></p>
@@ -29,5 +18,16 @@
 <p><img src="/.cyou//99.jpg"></p>
 <p><img src="/.cyou//100.jpg"></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Hexo Commands</title>
+    <url>/2021/02/17/Hexo-Commands/</url>
+    <content><![CDATA[<h4 id="Commonly-used-Commands"><a href="#Commonly-used-Commands" class="headerlink" title="Commonly used Commands"></a>Commonly used Commands</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s (-p 4000)</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo server&#x27;</span></span><br><span class="line">- Run hexo on the <span class="built_in">local</span> server</span><br><span class="line">- The defult port number is 4000</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n xxx</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo new&#x27;</span></span><br><span class="line">- Create a new article with the given name xxx</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo n page xxx</span><br><span class="line"></span><br><span class="line">- Generate a new page xxx <span class="keyword">in</span> the directory blog/<span class="built_in">source</span>/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line"></span><br><span class="line">- Clean static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo generate&#x27;</span></span><br><span class="line">- Generate static files <span class="keyword">in</span> the directory blog/public/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo deploy&#x27;</span></span><br><span class="line">- Deploy to the specified repository</span><br><span class="line">- Remember to create a new file <span class="string">&#x27;CNAME&#x27;</span> containing the custom domain</span><br></pre></td></tr></table></figure>
+<h4 id="Commands-Combination"><a href="#Commands-Combination" class="headerlink" title="Commands Combination"></a>Commands Combination</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo su <span class="comment"># switch to the root user</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo g -d</span><br><span class="line">- Create <span class="string">&#x27;CNAME&#x27;</span></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
