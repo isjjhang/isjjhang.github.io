@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo Commands</title>
-    <url>/2021/02/17/Hexo-Commands/</url>
+    <url>/2018/07/21/Hexo-Commands/</url>
     <content><![CDATA[<h4 id="Commonly-used-Commands"><a href="#Commonly-used-Commands" class="headerlink" title="Commonly used Commands"></a>Commonly used Commands</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s (-p 4000)</span><br><span class="line"></span><br><span class="line">- Same as <span class="string">&#x27;$ hexo server&#x27;</span></span><br><span class="line">- Run hexo on the <span class="built_in">local</span> server</span><br><span class="line">- The defult port number is 4000</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 
@@ -14,34 +14,63 @@
 <h4 id="Commands-Combination"><a href="#Commands-Combination" class="headerlink" title="Commands Combination"></a>Commands Combination</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ sudo su <span class="comment"># switch to the root user</span></span><br><span class="line">$ hexo clean &amp;&amp; hexo g -d</span><br><span class="line">- Create <span class="string">&#x27;CNAME&#x27;</span></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
-    <title>New Year</title>
-    <url>/2022/02/03/New-Year/</url>
-    <content><![CDATA[<img src="/2022/02/03/New-Year/0.jpg" style="zoom:20%;">
+    <title>Automated detection algorithm of macular fovea in SD-OCT images</title>
+    <url>/2019/08/08/oct/</url>
+    <content><![CDATA[<p>[<font color="#0000dd">CCML2019</font>]</p>
+<details class="note "><summary><p>Abstract</p>
+</summary>
+<div><font size="2"><p>According to the idea of pixel classification, a new algorithm for fovea detection based on feature extraction was proposed. Six features extracted from spectral domain optical coherence tomography imaging datasets, which can represent the morphological characteristics of fovea, were used to train the random forest classifier to segment the retinal macular area. Then we took the geometric center of the macular area as the final foveal detection result. The experiment was validated by a five-fold cross validation in a retinal image database containing four different kinds of diseases. The distance error between our automatic detection results and the manual results by doctors is 248.9±206.2μm, and the positioning accuracy (the proportion of cubes with a deviation of less than 750μm) is 96.8%. The experimental results indicate that the proposed algorithm has good robustness and can be used to locate the foveal position accurately, which provides a reliable basis for clinical diagnosis.</p></font></div>
+</details>
+
+<div align="center">
+<video width="480" height="320" controls>
+<source src="oct/oct2.mp4">
+</video>
+</div>
+
+<!-- <video controls preload="auto">
+    <source src="oct/oct2.mp4" type="video/mp4">
+</videos> -->
 
 <a id="more"></a>
+<img src="/2019/08/08/oct/fovea.png" style="zoom:50%;">
+<img src="/2019/08/08/oct/fovea2.jpg" style="zoom:50%;">
+<img src="/2019/08/08/oct/disease.png" style="zoom:50%;">
+<img src="/2019/08/08/oct/mask.png" style="zoom:50%;">
+<img src="/2019/08/08/oct/ILM-BM.png" style="zoom:50%;">
+<img src="/2019/08/08/oct/feature.jpg" style="zoom:50%;">
+<img src="/2019/08/08/oct/results.png" style="zoom:50%;">
 
-<img src="/2022/02/03/New-Year/1.jpg" style="zoom:33%;">
+<!-- <img src="oct/oct.gif" style="zoom:20%;" /> -->
+
+
+<!-- <img src="New-Year/1.jpg" style="zoom:33%;" />
+
+<img src="New-Year/11.jpeg" style="zoom:33%;" />
+
+<img src="New-Year/2.jpeg" style="zoom:33%;" />
+
+<img src="New-Year/3.jpg" style="zoom:25%;" />
+
+![](New-Year/31.jpeg)
+
+<img src="New-Year/32.jpeg" style="zoom:33%;" />
+
+<img src="New-Year/4.jpeg" style="zoom:33%;" />
+
+<img src="New-Year/41.jpg" style="zoom:33%;" />
+
+![](New-Year/5.jpeg)
+
+![](New-Year/6.jpeg)
+
+![](New-Year/7.jpeg)
 
 
 
-<img src="/2022/02/03/New-Year/11.jpeg" style="zoom:33%;">
+![](New-Year/99.jpg)
 
-<img src="/2022/02/03/New-Year/2.jpeg" style="zoom:33%;">
-
-<img src="/2022/02/03/New-Year/3.jpg" style="zoom:25%;">
-
-<p><img src="/2022/02/03/New-Year/31.jpeg"></p>
-<img src="/2022/02/03/New-Year/32.jpeg" style="zoom:33%;">
-
-<img src="/2022/02/03/New-Year/4.jpeg" style="zoom:33%;">
-
-<img src="/2022/02/03/New-Year/41.jpg" style="zoom:33%;">
-
-<p><img src="/2022/02/03/New-Year/5.jpeg"></p>
-<p><img src="/2022/02/03/New-Year/6.jpeg"></p>
-<p><img src="/2022/02/03/New-Year/7.jpeg"></p>
-<p><img src="/2022/02/03/New-Year/99.jpg"></p>
-<p><img src="/2022/02/03/New-Year/100.jpg"></p>
+![](New-Year/100.jpg) -->
 ]]></content>
   </entry>
 </search>
