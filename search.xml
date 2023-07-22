@@ -16,68 +16,62 @@
   <entry>
     <title>Automated detection algorithm of macular fovea in SD-OCT images</title>
     <url>/2019/08/08/oct/</url>
-    <content><![CDATA[<p>[<font color="#0000dd">CCML2019</font>]</p>
+    <content><![CDATA[<p>[<font color="#0000dd">CCML2019</font>]<br><font size="2">Linghua TANG, <strong>Jiahang JIANG</strong> , Mudi DUAN, Mingchao LI, Songtao YUAN, Qiang CHEN</font></p>
 <details class="note "><summary><p>Abstract</p>
 </summary>
 <div><font size="2"><p>According to the idea of pixel classification, a new algorithm for fovea detection based on feature extraction was proposed. Six features extracted from spectral domain optical coherence tomography imaging datasets, which can represent the morphological characteristics of fovea, were used to train the random forest classifier to segment the retinal macular area. Then we took the geometric center of the macular area as the final foveal detection result. The experiment was validated by a five-fold cross validation in a retinal image database containing four different kinds of diseases. The distance error between our automatic detection results and the manual results by doctors is 248.9±206.2μm, and the positioning accuracy (the proportion of cubes with a deviation of less than 750μm) is 96.8%. The experimental results indicate that the proposed algorithm has good robustness and can be used to locate the foveal position accurately, which provides a reliable basis for clinical diagnosis.</p></font></div>
 </details>
 
-<!-- <div align=center>
-<video width="480" height="320" controls>
-<source src="oct/oct2.mp4" type="video/mp4">
-<source src="oct/oct2.webm" type="video/webm">
-<source src="oct/oct2.ogv" type="video/ogg"/>
-</video>
-</div> -->
-<p><video src="/2019/08/08/oct/oct2.mp4" position="absolute" width="100%" height="100%" controls="controls"></video></p>
-<!-- <video controls preload="auto">
-    <source src="oct/oct2.mp4" type="video/mp4">
-</videos> -->
-
-<figure class="half">
-    <img src="/2019/08/08/oct/fovea.png" width="200"><img src="/2019/08/08/oct/fovea21.jpg" width="100">
-</figure>
 
 <a id="more"></a>
-<img src="/2019/08/08/oct/fovea.png" style="zoom:50%;">
-<img src="/2019/08/08/oct/fovea21.jpg" style="zoom:50%;">
-<img src="/2019/08/08/oct/fovea22.jpg" style="zoom:50%;">
-<img src="/2019/08/08/oct/disease.png" style="zoom:50%;">
-<img src="/2019/08/08/oct/mask.png" style="zoom:50%;">
-<img src="/2019/08/08/oct/ILM-BM.png" style="zoom:50%;">
-<img src="/2019/08/08/oct/feature.jpg" style="zoom:50%;">
-<img src="/2019/08/08/oct/results.png" style="zoom:50%;">
+<details class="note "><summary><p>SD-OCT scan</p>
+</summary>
+<img src="/2019/08/08/oct/fovea.png" width="30%" height="30%">
+<img src="/2019/08/08/oct/fovea23.jpg" style="zoom:40%;">
+<video src="/2019/08/08/oct/oct2.mp4" position="absolute" width="60%" height="40%" controls="controls" preload="auto"></video>
+</details>
 
-<!-- <img src="oct/oct.gif" style="zoom:20%;" /> -->
+<details class="note "><summary><p>Layer segmentation</p>
+</summary>
+<img src="/2019/08/08/oct/ILM-BM.png" style="zoom:50%;">
+</details>
+
+<details class="note "><summary><p>Feature construction</p>
+</summary>
+<img src="/2019/08/08/oct/feature.jpg" style="zoom:80%;">
+<div><font size="2"><p>Six feature images of the same eye. (1: average intensity, 2: layer thickness, 3:
+vertical gradient of pixels, 4: gradient of ILM, 5: texture number of retinal layers, 6: number of high reflection strip)
+</p></font></div>
+</details>
+
+
+<details class="note "><summary><p>Detection results</p>
+</summary>
+<img src="/2019/08/08/oct/results.png" style="zoom:50%;">
+<div><font size="2"><p>The green and blue signs represent the central concave positions predicted by our method and the current sota method, respectively. The red sign represents the reference position.</p></font></div>
+</details>
+
+<!-- |||
+|--|--|
+| <img src="oct/fovea.png" style="zoom:50%;"> | <img src="oct/fovea21.jpg" style="zoom:50%;"> | -->
+
+<!-- <img src="oct/fovea21.jpg" style="zoom:50%;" />
+<img src="oct/fovea22.jpg" style="zoom:100%;" /> -->
+<!-- <img src="oct/disease.png" style="zoom:50%;" /> -->
+<!-- <img src="oct/mask.png" style="zoom:50%;" /> -->
 
 
 <!-- <img src="New-Year/1.jpg" style="zoom:33%;" />
 
-<img src="New-Year/11.jpeg" style="zoom:33%;" />
-
-<img src="New-Year/2.jpeg" style="zoom:33%;" />
-
-<img src="New-Year/3.jpg" style="zoom:25%;" />
-
-![](New-Year/31.jpeg)
-
-<img src="New-Year/32.jpeg" style="zoom:33%;" />
-
-<img src="New-Year/4.jpeg" style="zoom:33%;" />
-
-<img src="New-Year/41.jpg" style="zoom:33%;" />
-
-![](New-Year/5.jpeg)
-
-![](New-Year/6.jpeg)
-
-![](New-Year/7.jpeg)
-
-
-
-![](New-Year/99.jpg)
-
 ![](New-Year/100.jpg) -->
 ]]></content>
+  </entry>
+  <entry>
+    <title>Random Smoothing Regularization in Kernel Gradient Descent Learning</title>
+    <url>/2023/07/01/rs/</url>
+    <content><![CDATA[<p>[<a href="https://arxiv.org/abs/2305.03531"><font color="#0000dd">arXiv</font></a>]</p>
+<p><font size="2">Liang Ding*, Tianyang Hu, <strong>Jiahang Jiang</strong>, Donghao Li, Wenjia Wang, Yuan Yao<br>* <em>Names are sorted alphabetically (these authors contributed equally to the manuscript)</em></font></p>
+<a id="more"></a>
+<div class="note "><div><font size="2"><p>Detail Coming Soon...</p></font></div></div>]]></content>
   </entry>
 </search>
