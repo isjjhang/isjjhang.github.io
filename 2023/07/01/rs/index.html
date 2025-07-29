@@ -27,17 +27,20 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"jjhang.cyou","root":"/","images":"/images","scheme":"Gemini","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
-<meta name="description" content="[arXiv] Liang Ding*, Tianyang Hu, Jiahang Jiang, Donghao Li, Wenjia Wang, Yuan Yao* Names are sorted alphabetically (these authors contributed equally to the manuscript)">
+<meta name="description" content="[JMLR 2024] Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized f">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Random Smoothing Regularization in Kernel Gradient Descent Learning">
 <meta property="og:url" content="https://jjhang.cyou/2023/07/01/rs/index.html">
 <meta property="og:site_name" content="Jiahang JIANG">
-<meta property="og:description" content="[arXiv] Liang Ding*, Tianyang Hu, Jiahang Jiang, Donghao Li, Wenjia Wang, Yuan Yao* Names are sorted alphabetically (these authors contributed equally to the manuscript)">
+<meta property="og:description" content="[JMLR 2024] Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized f">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jjhang.cyou/2023/07/01/rs/1d_curve_size50.pdf">
+<meta property="og:image" content="https://jjhang.cyou/2023/07/01/rs/real_data.pdf">
 <meta property="article:published_time" content="2023-07-01T12:23:07.000Z">
-<meta property="article:modified_time" content="2023-07-22T03:38:51.768Z">
+<meta property="article:modified_time" content="2025-07-29T10:34:00.313Z">
 <meta property="article:author" content="Jiahang JIANG">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jjhang.cyou/2023/07/01/rs/1d_curve_size50.pdf">
 
 
 <link rel="canonical" href="https://jjhang.cyou/2023/07/01/rs/">
@@ -204,7 +207,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -305,7 +308,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>165</span>
+      <span>1.3k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -323,10 +326,33 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>[<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2305.03531"><font color="#0000dd">arXiv</font></a>]</p>
-<p><font size="2">Liang Ding*, Tianyang Hu, <strong>Jiahang Jiang</strong>, Donghao Li, Wenjia Wang, Yuan Yao<br>* <em>Names are sorted alphabetically (these authors contributed equally to the manuscript)</em></font></p>
+        <p>[<font color="#0000dd">JMLR 2024</font>]</p>
+<p>Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized features. Despite its success in various applications, there has been a lack of systematic study on the regularization ability of random smoothing. In this paper, we aim to bridge this gap by presenting a framework for random smoothing regularization that can adaptively and effectively learn a wide range of ground truth functions belonging to the classical Sobolev spaces.</p>
 <a id="more"></a>
-<div class="note "><div><font size="2"><p>Detail Coming Soon...</p></font></div></div>
+
+<details class="note "><summary><p>Theoretical Results</p>
+</summary>
+<p>(1) In case of Sobolev space of low intrinsic dimensionality $d\leq D$:<br>    When using Gaussian random smoothing, an upper bound of the convergence rate is achieved at $n^{-m_f/(2m_f+d)}(\log n)^{D+1}$, which recovers the existing results\textsuperscript{[2]} but we present a different approach that allows us to analyze polynomial smoothing;<br>    When using polynomial random smoothing with data size adaptive smoothing degree, a convergence rate of $n^{-m_f/(2m_f+d)}(\log n)^{2m_f+1}$ is achieved, which is again, hypothetically optimal up to a logarithmic factor. %These two convergence rates are  in \cite{hamm2021adaptive}.<br>(2) In case of mixed smooth Sobolev spaces, using polynomial random smoothing of degree $m_\varepsilon$, a fast convergence rate of $n^{-2m_f/(2m_f + 1)}(\log n)^{\frac{2m_f}{2m_f+1}\left(D-1+\frac{1}{2(m_0+m_\varepsilon)}\right)}$ is achieved, which is optimal up to a logarithmic factor.</p>
+
+</details>
+
+
+
+<details class="note "><summary><p>Numerical Studies</p>
+</summary>
+<img src="/2023/07/01/rs/1d_curve_size50.pdf" style="zoom:10%;">
+
+</details>
+
+
+
+<details class="note "><summary><p>Experiments on Real-world Dataset</p>
+</summary>
+<img src="/2023/07/01/rs/real_data.pdf" style="zoom:100%;">
+
+</details>
+
+
     </div>
 
     
@@ -360,6 +386,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2025/05/02/distillation/" rel="next" title="Understanding Self-Supervised Dataset Distillation through Alignment and Uniformity.">
+                  Understanding Self-Supervised Dataset Distillation through Alignment and Uniformity. <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -402,7 +431,7 @@
 
 <div class="copyright">
   &copy; 1998 – 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-dragon"></i>
   </span>
@@ -414,7 +443,7 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">2k</span>
+    <span title="Symbols count total">3k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
