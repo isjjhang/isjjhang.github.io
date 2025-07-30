@@ -1,56 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Understanding Self-Supervised Dataset Distillation through Alignment and Uniformity</title>
-    <url>/2025/05/02/distillation/</url>
-    <content><![CDATA[<div class="note "><div><font size="2"><p>Detail Coming Soon...</p></font></div>
-</div>
-]]></content>
-  </entry>
-  <entry>
     <title>MDR: Boosting Sequential Recommendations with Dual-Domain Sufficient Embedding</title>
     <url>/2025/06/10/mdr/</url>
     <content><![CDATA[<p>[<font color="#0000dd">Submitted to ICDM 2025</font>]</p>
 <div class="note "><div><font size="2"><p>Detail Coming Soon...</p></font></div>
 </div>
-]]></content>
-  </entry>
-  <entry>
-    <title>Random Smoothing Regularization in Kernel Gradient Descent Learning</title>
-    <url>/2024/07/01/rs/</url>
-    <content><![CDATA[<p>[<font color="#0000dd">JMLR 2024</font>]</p>
-<div><font size="2"><p>Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized features. Despite its success in various applications, there has been a lack of systematic study on the regularization ability of random smoothing. In this paper, we aim to bridge this gap by presenting a framework for random smoothing regularization that can adaptively and effectively learn a wide range of ground truth functions belonging to the classical Sobolev spaces.</p></font></div>
-
-<a id="more"></a>
-
-<details class="note "><summary><p>Theoretical Results</p>
-</summary>
-<div><font size="2"><p> (1) In case of Sobolev space of low intrinsic dimensionality $d\leq D$: 
-    When using Gaussian random smoothing, an upper bound of the convergence rate is achieved at $n^{-m_f/(2m_f+d)}(\log n)^{D+1}$, which recovers the existing results\textsuperscript{[2]} but we present a different approach that allows us to analyze polynomial smoothing;
-    When using polynomial random smoothing with data size adaptive smoothing degree, a convergence rate of $n^{-m_f/(2m_f+d)}(\log n)^{2m_f+1}$ is achieved, which is again, hypothetically optimal up to a logarithmic factor.</p></font></div>
-
-<div><font size="2"><p> (2) In case of mixed smooth Sobolev spaces, using polynomial random smoothing of degree $m_\varepsilon$, a fast convergence rate of $n^{-2m_f/(2m_f + 1)}(\log n)^{\frac{2m_f}{2m_f+1}\left(D-1+\frac{1}{2(m_0+m_\varepsilon)}\right)}$ is achieved, which is optimal up to a logarithmic factor.</p></font></div>
-
-</details>
-
-
-
-<details class="note "><summary><p>Numerical Studies</p>
-</summary>
-<img src="/2024/07/01/rs/1d_curve.jpg" style="zoom:30%;">
-
-
-
-</details>
-
-
-
-<details class="note "><summary><p>Experiments on Real-world Dataset</p>
-</summary>
-<img src="/2024/07/01/rs/real_data.jpg" style="zoom:80%;">
-
-</details>
-
 ]]></content>
   </entry>
   <entry>
@@ -101,6 +56,51 @@ vertical gradient of pixels, 4: gradient of ILM, 5: texture number of retinal la
 <!-- <img src="New-Year/1.jpg" style="zoom:33%;" />
 
 ![](New-Year/100.jpg) -->
+]]></content>
+  </entry>
+  <entry>
+    <title>Understanding Self-Supervised Dataset Distillation through Alignment and Uniformity</title>
+    <url>/2025/05/02/distillation/</url>
+    <content><![CDATA[<div class="note "><div><font size="2"><p>Detail Coming Soon...</p></font></div>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>Random Smoothing Regularization in Kernel Gradient Descent Learning</title>
+    <url>/2024/07/01/rs/</url>
+    <content><![CDATA[<p>[<font color="#0000dd">JMLR 2024</font>]</p>
+<div><font size="2"><p>Random smoothing data augmentation is a unique form of regularization that can prevent overfitting by introducing noise to the input data, encouraging the model to learn more generalized features. Despite its success in various applications, there has been a lack of systematic study on the regularization ability of random smoothing. In this paper, we aim to bridge this gap by presenting a framework for random smoothing regularization that can adaptively and effectively learn a wide range of ground truth functions belonging to the classical Sobolev spaces.</p></font></div>
+
+<a id="more"></a>
+
+<details class="note "><summary><p>Theoretical Results</p>
+</summary>
+<div><font size="2"><p> (1) In case of Sobolev space of low intrinsic dimensionality $d\leq D$: 
+    When using Gaussian random smoothing, an upper bound of the convergence rate is achieved at $n^{-m_f/(2m_f+d)}(\log n)^{D+1}$, which recovers the existing results\textsuperscript{[2]} but we present a different approach that allows us to analyze polynomial smoothing;
+    When using polynomial random smoothing with data size adaptive smoothing degree, a convergence rate of $n^{-m_f/(2m_f+d)}(\log n)^{2m_f+1}$ is achieved, which is again, hypothetically optimal up to a logarithmic factor.</p></font></div>
+
+<div><font size="2"><p> (2) In case of mixed smooth Sobolev spaces, using polynomial random smoothing of degree $m_\varepsilon$, a fast convergence rate of $n^{-2m_f/(2m_f + 1)}(\log n)^{\frac{2m_f}{2m_f+1}\left(D-1+\frac{1}{2(m_0+m_\varepsilon)}\right)}$ is achieved, which is optimal up to a logarithmic factor.</p></font></div>
+
+</details>
+
+
+
+<details class="note "><summary><p>Numerical Studies</p>
+</summary>
+<img src="/2024/07/01/rs/1d_curve.jpg" style="zoom:30%;">
+
+
+
+</details>
+
+
+
+<details class="note "><summary><p>Experiments on Real-world Dataset</p>
+</summary>
+<img src="/2024/07/01/rs/real_data.jpg" style="zoom:80%;">
+
+</details>
+
 ]]></content>
   </entry>
 </search>
